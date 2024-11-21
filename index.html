@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>การตรวจสอบความถูกต้องของข้อมูลในแบบฟอร์ม</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div>
+      <form id="form" action="#" autocomplete="off">
+        <h1>สมัครสมาชิก</h1>
+        <div class="input-control">
+          <label for="email">Email : </label>
+          <input id="email" name="email" type="text" />
+          <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+          <label for="password">รหัส Password : </label>
+          <input id="pws" name="pws" type="password" />
+          <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+          <label for="password">รหัส Password อีกครั้ง : </label>
+          <input id="pwsagain" name="pwsagain" type="password" />
+          <div class="error"></div>
+        </div>
+
+        <button type="submit" class="button-submit">สมัคร</button>
+        <button type="reset" class="button-cancel">ยกเลิก</button>
+      </form>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
