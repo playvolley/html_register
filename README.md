@@ -1,1 +1,1 @@
-Link deploy here: https://playvolley.github.io/html_register
+Link deployed here: https://playvolley.github.io/html_register
